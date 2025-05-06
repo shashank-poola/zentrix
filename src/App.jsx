@@ -2,11 +2,11 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>
-      <h1 className='text-5xl font-bold text-orange-500'>Shashank is a progammer</h1>
-      <h2>connected using with something new in the world and shashank</h2>
-    </div>
+    <main className='relative min-h-screen w-screen overflow-x-hidden'>
+      <div>
+        <h1> Shashank is a programmer</h1>
+      </div>
+      <Hero />
+    </main>
   )
 }
-
-export default App
